@@ -1,5 +1,5 @@
 # generator-kiricon-website [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> A website scafold for when I want to make a new website
+> A Yeoman generator for making modern front-end web apps using a gulp workflow. 
 
 ## Installation
 

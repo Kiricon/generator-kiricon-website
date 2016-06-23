@@ -1,8 +1,8 @@
 {
   "name": "generator-kiricon-website",
   "version": "1.0.0",
-  "description": "A website scafold for when I want to make a new website",
-  "homepage": "",
+  "description": "A Yeoman generator for making modern front-end web apps using a gulp workflow. ",
+  "homepage": "https://valenciana.me",
   "author": {
     "name": "Dominic Valenciana",
     "email": "dominicvalenciana@gmail.com",
@@ -13,7 +13,7 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "kiricon;website;sass;browsersync;minify;angular;material angular;",
+    "kiricon;website;sass;browsersync;minify;angular;angular material;yeoman;generator;",
     "yeoman-generator"
   ],
   "dependencies": {
