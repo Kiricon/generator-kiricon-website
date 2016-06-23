@@ -16,6 +16,21 @@ Then generate your new project:
 yo kiricon-website
 ```
 
+From there you can use your prebuilt gulp workflow using the included features bellow;
+
+```bash
+gulp run
+```
+
+## Features you can include
+* Angular
+* Angular Material
+* Sass
+* Build tools to uglify and minify your Javascript and CSS
+* Html5 boiler plate
+* Gulp build
+* Browser Sync
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
