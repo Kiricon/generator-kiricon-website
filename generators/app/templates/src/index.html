@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en" <% if(angular == true){%>ng-app="app" ng-cloak=""<%}%>>
+<head>
+  <meta charset="utf-8">
+
+  <title><%= name %></title>
+  <meta name="description" content="<%= name %>">
+  <!--<meta name="author" content="your name here">-->
+  <% if(materialAngular){%><link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css"><%}%>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+</body>
+  <% if(angular == true){%><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script><%}%>
+  <% if(materialAngular == true){%>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script><%}%>
+  <% if(materialIcons == true){%><link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"><%}%>
+
+  <script src="app.js"></script>
+</html>
