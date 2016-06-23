@@ -1,4 +1,4 @@
-# generator-kiricon-website [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-kiricon-website [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > A website scafold for when I want to make a new website
 
 ## Installation
