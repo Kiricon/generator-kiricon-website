@@ -1,6 +1,6 @@
 {
   "name": "generator-kiricon-website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Yeoman generator for making modern front-end web apps using a gulp workflow. ",
   "homepage": "https://valenciana.me",
   "author": {
