@@ -27,8 +27,8 @@ gulp.task('converthtml', function(){
             .pipe(gulp.dest('./<%=dist%>'))
 });
 
-gulp.task('watchjs', ['convertjs'], browserSync.reload);
-gulp.task('watchhtml', ['converthtml'], browserSync.reload);
+gulp.task('watchjs', ['convertjs'], function(){browserSync.reload();});
+gulp.task('watchhtml', ['converthtml'], function(){browserSync.reload();});
 
 gulp.task('convertcss', function(){
   return sass(paths.sass)
